@@ -1,15 +1,15 @@
 {
-  "name": "in-memory-cache",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "mapped-cache",
+  "version": "1.0.1",
+  "description": "Javascript Simple In-memory Cache with Map",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc --build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["cache", "in-memeory", "map"],
+  "author": "warpdev",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.7.3"
   }
