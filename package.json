@@ -1,8 +1,8 @@
 {
   "name": "mapped-cache",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Javascript Simple In-memory Cache with Map",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build"

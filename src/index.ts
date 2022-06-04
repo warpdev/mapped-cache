@@ -1,4 +1,4 @@
-import Repository from "./src/Repository";
+import Repository from "./Repository";
 
 let repository: Repository;
 
