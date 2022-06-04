@@ -7,3 +7,4 @@ declare class Repository {
     delete(key: string): void;
 }
 export default Repository;
+//# sourceMappingURL=Repository.d.ts.map

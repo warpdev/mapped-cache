@@ -1,8 +1,8 @@
-import Repository from "./Repository";
+import Repository from "./src/Repository";
 
 let repository: Repository;
 
-const initializeCache = async (): Promise<void> => {
+const initializeCache = () => {
    repository = new Repository();
 };
 

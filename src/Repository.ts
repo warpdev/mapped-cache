@@ -10,9 +10,11 @@ class Repository {
 
     public set(key: string, value: any, expire?: number): void {
         this.bucket.set(key, value);
-        setTimeout(() => {
-            this.bucket.delete(key);
-        }, expire);
+        if(expire) {
+            setTimeout(() => {
+                this.bucket.delete(key);
+            }, expire);
+        }
     }
 
     public has(key: string): boolean {
