@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build"
   },
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/warpdev/mapped-cache"
+  },
   "keywords": ["cache", "in-memeory", "map"],
   "author": "warpdev",
   "license": "MIT",
